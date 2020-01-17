@@ -11,6 +11,7 @@ const webpack = require('webpack');
 
 module.exports = ({stage, actions}) => {
   actions.setWebpackConfig({
+    devtool: 'eval-source-map',
     resolve: {
       modules: [
         resolve(__dirname, '../src'),

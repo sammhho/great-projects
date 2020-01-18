@@ -6,8 +6,8 @@
 
 import React from 'react';
 import {graphql} from 'gatsby';
-//import Layout from 'components/Layout';
-import Layout from 'components/layout';
+import Layout from 'components/Layout';
+//import Layout from 'components/layout';
 import MarkdownPage from 'components/MarkdownPage';
 import {createLinkBlog} from 'utils/createLink';
 

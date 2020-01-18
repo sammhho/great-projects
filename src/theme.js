@@ -448,6 +448,33 @@ const sharedStyles = {
         marginTop: -60,
       },
     },
+
+    '& table': {
+      'border-collapse': 'collapse',
+      'border-spacing': 0,
+      display: 'block',
+      overflow: 'auto',
+      width: '100%',
+      marginBottom: 16,
+      marginTop: 0,
+    },
+
+    '& table td, table th': {
+      border: '1px solid #dfe2e5',
+      padding: '6px 13px',
+    },
+
+    '& table td': {
+      'min-width': 117,
+    },
+
+    '& table tr': {
+      'background-color': '#fff',
+      'border-top': '1px solid #c6cbd1',
+      ':nth-child(2n)': {
+        'background-color': '#f6f8fa',
+      },
+    },
   },
 };
 

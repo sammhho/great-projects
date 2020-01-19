@@ -8,8 +8,7 @@ import MarkdownPage from 'components/MarkdownPage';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {graphql} from 'gatsby';
-//import Layout from 'components/Layout';
-import Layout from 'components/layout';
+import Layout from 'components/Layout';
 import {createLinkDocs} from 'utils/createLink';
 import {sectionListDocs} from 'utils/sectionList';
 

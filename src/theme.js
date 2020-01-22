@@ -464,9 +464,9 @@ const sharedStyles = {
       padding: '6px 13px',
     },
 
-    '& table td': {
-      'min-width': 117,
-    },
+    //'& table td': {
+    //  'min-width': 117,
+    //},
 
     '& table tr': {
       'background-color': '#fff',
@@ -474,6 +474,10 @@ const sharedStyles = {
       ':nth-child(2n)': {
         'background-color': '#f6f8fa',
       },
+    },
+
+    '& img.stars': {
+      'min-width': 90,
     },
   },
 };

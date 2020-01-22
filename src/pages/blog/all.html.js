@@ -6,8 +6,7 @@
  */
 
 import {graphql, Link} from 'gatsby';
-//import Layout from 'components/Layout';
-import Layout from 'components/layout';
+import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Header from 'components/Header';
 import TitleAndMetaTags from 'components/TitleAndMetaTags';

@@ -68,7 +68,7 @@ const Header = ({location}: {location: Location}) => (
             },
           }}
           to="/">
-          <img src={logoSvg} alt="" height="20" />
+          {/* <img src={logoSvg} alt="" height="20" /> */}
           <span
             css={{
               color: 'inherit',
@@ -92,7 +92,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            React
+            Proc Hackers
           </span>
         </Link>
 
@@ -227,7 +227,7 @@ const Header = ({location}: {location: Location}) => (
                 display: 'none',
               },
             }}
-            href="https://github.com/facebook/react/"
+            href="https://github.com/sammhho/great-projects"
             target="_blank"
             rel="noopener">
             GitHub

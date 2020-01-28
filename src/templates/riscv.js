@@ -18,10 +18,10 @@ const toSectionList = allMarkdownRemark => [
         id: node.fields.slug,
         title: node.frontmatter.title,
       })),
-//      .concat({
-//        id: '/blog/all.html',
-//        title: 'All posts ...',
-//      }),
+    //.concat({
+    //  id: '/blog/all.html',
+    //  title: 'All posts ...',
+    //}),
   },
 ];
 

@@ -16,9 +16,9 @@ module.exports = async ({graphql, actions}) => {
 
   const blogTemplate = resolve(__dirname, '../src/templates/blog.js');
   const riscvTemplate = resolve(__dirname, '../src/templates/riscv.js');
-  //const communityTemplate = resolve(__dirname, '../src/templates/community.js');
+  const communityTemplate = resolve(__dirname, '../src/templates/community.js');
   const docsTemplate = resolve(__dirname, '../src/templates/docs.js');
-  //const tutorialTemplate = resolve(__dirname, '../src/templates/tutorial.js');
+  const tutorialTemplate = resolve(__dirname, '../src/templates/tutorial.js');
 
   // Redirect /index.html to root.
   createRedirect({

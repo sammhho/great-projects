@@ -8,6 +8,9 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
+    'gatsby-transformer-home-example-code',
+    'gatsby-transformer-authors-yaml',
+    'gatsby-plugin-glamor',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -15,8 +18,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    'gatsby-transformer-authors-yaml',
-    'gatsby-plugin-glamor',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -41,6 +42,19 @@ module.exports = {
           //{
           //  resolve: `@pauliescanlon/gatsby-remark-sticky-table`,
           //},
+          {
+            resolve: 'gatsby-remark-embed-snippet',
+            options: {
+              classPrefix: 'gatsby-code-',
+              directory: `${__dirname}/examples/`,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'gatsby-code-',
+            },
+          },
         ],
       },
     },
@@ -64,5 +78,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  pathPrefix: "/great-projects", // for gh-pages
-}
+  pathPrefix: '/great-projects', // for gh-pages
+};

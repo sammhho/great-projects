@@ -17,7 +17,7 @@ import DocSearch from './DocSearch';
 // $FlowFixMe
 import navHeader from '../../../content/headerNav.yml';
 
-import logoSvg from 'icons/logo.svg';
+//import logoSvg from 'icons/logo.svg';
 
 const Header = ({location}: {location: Location}) => (
   <header
@@ -92,7 +92,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            Proc Hackers
+            CoreHacks
           </span>
         </Link>
 
